@@ -1,0 +1,107 @@
+#DHS(without INPUT)
+
+
+# Command line:macs2 callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/Sorted_Bams_Final/SRR499743_DHS_seq_pro_B_8439_1_1_sorted.bam -g mm -n
+ DHS -f BAM --outdir /bi/group/sysgen/Hashem/VDJ_Analysis/MACS2_OUTPUT/DHS -p 0.00001 --nomodel --shift -100 --extsize 300
+
+#CTCF (without INPUT)
+# Command line:macs2 callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/Sorted_Bams_Final/SRR099835_GSM672401_Pro_B_cell_Rag2_CTCF_1_val_1.fq_
+bowtie_sorted.bam -g mm -n CTCF -f BAM --outdir /bi/group/sysgen/Hashem/VDJ_Analysis/MACS2_OUTPUT/CTCF -p 0.00001
+
+#H3K4ME3 (with INPUT)
+# Command line: callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/Sorted_Bams_Final/Rag_H3K4me3_30Nov2009_perfect_sorted.bam -c /bi/grou
+p/sysgen/Hashem/VDJ_Analysis/INPUT_Files/INPUT_H3k4me3.bam -g mm -n H3K4ME3 -f BAM --outdir /bi/group/sysgen/Hashem/VDJ_Analysis/MACS2_
+OUTPUT/H3K4ME3 -p 0.00001 --nomodel --shift 37 --extsize 73
+
+#H3K27ME3 (with INPUT)
+# Command line: callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/Sorted_Bams_Final/SRR499722_3_4_H3k27me3_merged_Mapped_Only.bam -c /bi
+/group/sysgen/Hashem/VDJ_Analysis/INPUT_Files/INPUT_EBF_Merged_Mapped_Only.bam -g mm -n H3K27ME3 -f BAM --outdir /bi/group/sysgen/Hashe
+m/VDJ_Analysis/MACS2_OUTPUT/H3K27ME3 -p 0.01 --nomodel --shift 37 --extsize 73 --broad
+
+#H3K27ME3 (with INPUT) with MACS1.4
+# Command line: macs14  -t /bi/group/sysgen/Hashem/VDJ_Analysis/Sorted_Bams_Final/SRR499722_3_4_H3k27me3_merged_Mapped_Only.bam \ 
+-c /bi/group/sysgen/Hashem/VDJ_Analysis/INPUT_Files/INPUT_EBF_Merged_Mapped_Only.bam -g mm -n H3K27ME3 \
+-f BAM  --nomodel --shiftsize 73 -B -S --pvalue 1e-3
+
+
+
+#H3K4ME1(with INPUT)
+# Command line: callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/Sorted_Bams_Final/SRR499709_H3K4me1_ChIP_seq_pro_B_8666_1_sorted.bam -
+c /bi/group/sysgen/Hashem/VDJ_Analysis/INPUT_Files/INPUT_EBF_Merged_Mapped_Only.bam -g mm -n H3K4ME1 -f BAM --outdir /bi/group/sysgen/H
+ashem/VDJ_Analysis/MACS2_OUTPUT/H3K4ME1 -p 0.00001 --nomodel --shift 37 --extsize 73
+
+#H3K9AC(with INPUT)
+# Command line: callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/Sorted_Bams_Final/SRR499718_9_H3k9ac_merged_Mapped_Only.bam -c /bi/gro
+up/sysgen/Hashem/VDJ_Analysis/INPUT_Files/INPUT_EBF_Merged_Mapped_Only.bam -g mm -n H3K9AC -f BAM --outdir /bi/group/sysgen/Hashem/VDJ_
+Analysis/MACS2_OUTPUT/H3K9AC -p 0.00001 --nomodel --shift 37 --extsize 73
+
+#H3K4ME2(with INPUT)
+# Command line: callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/Sorted_Bams_Final/GSM987804_SRR543407_pro_B__H3K4me2_ChIP_seq_1_trimme
+d.fq_sorted.bam -c /bi/group/sysgen/Hashem/VDJ_Analysis/INPUT_Files/INPUT_GSM987812_SRR543415_pro-B_P300_FA_1.fastq.gz_bowtie_mapped_on
+ly.bam -g mm -n H3K4ME2 -f BAM --outdir /bi/group/sysgen/Hashem/VDJ_Analysis/MACS2_OUTPUT/H3K4ME2 -p 0.00001 --nomodel --shift 37 --ext
+size 73
+
+#MED1(with INPUT)
+# Command line: callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/Sorted_Bams_Final/GSM1038263_SRR620145_Med1_Pro_Bcell_ChipSeq_1.fastq.
+gz_bowtie_sorted.bam -c /bi/group/sysgen/Hashem/VDJ_Analysis/INPUT_Files/INPUT_GSM1038264_SRR620146_7_Merged_MED1_Mapped_Only.bam -g mm
+ -n MED1 -f BAM --outdir /bi/group/sysgen/Hashem/VDJ_Analysis/MACS2_OUTPUT/MED1 -p 0.00001
+
+#P300 (with INPUT)
+# Command line: callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/Sorted_Bams_Final/GSM987808_SRR543411_pro_B__p300_ChIP_seq_1_trimmed.f
+q_sorted.bam -c /bi/group/sysgen/Hashem/VDJ_Analysis/INPUT_Files/INPUT_GSM987812_SRR543415_pro-B_P300_FA_1.fastq.gz_bowtie_mapped_only.
+bam -g mm -n P300 -f BAM --outdir /bi/group/sysgen/Hashem/VDJ_Analysis/MACS2_OUTPUT/P300 -p 0.00001
+
+#IRF4 (with INPUT)
+# Command line: callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/Sorted_Bams_Final/SRR1057446_IRF4_ChIP-seq_pro-B_8844_1_trimmed.fq.gz_
+bowtie2_mapped_Only.bam -c /bi/group/sysgen/Hashem/VDJ_Analysis/INPUT_Files/INPUT_IRF4_SRR1057449.bam -g mm -n IRF4 -f BAM --outdir /bi
+/group/sysgen/Hashem/VDJ_Analysis/MACS2_OUTPUT/IRF4 -p 0.00001
+
+#PU1(without INPUT)
+ Command line: callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/Sorted_Bams_Final/GSM539538_SRR064918_PU_1_Pro-B_cells_replicate_1.fas
+tq.gz_bowtie_sorted.bam -g mm -n PU1 -f BAM --outdir /bi/group/sysgen/Hashem/VDJ_Analysis/MACS2_OUTPUT/PU1 -p 0.00001
+
+#YY1 (with INPUT)
+# Command line: callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/Sorted_Bams_Final/SRR866262_Pro-B_cell_Yy1_Bio_Rag2_R26_BirA_BirA__1_v
+al_1.fq_bowtie_sorted.bam -c /bi/group/sysgen/Hashem/VDJ_Analysis/INPUT_Files/INPUT_SRR866265_YY1.bam -g mm -n YY1 -f BAM --outdir /bi/
+group/sysgen/Hashem/VDJ_Analysis/MACS2_OUTPUT/YY1 -p 0.00001 --nomodel --extsize 300
+
+#EBF(with INPUT)
+# Command line: callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/Sorted_Bams_Final/SRR408700_GSM876622_EBF1_ChIP_seq_8246_6_1_Merged_wi
+th_2_1_Mapped_Only_Sorted.bam -c /bi/group/sysgen/Hashem/VDJ_Analysis/INPUT_Files/INPUT_EBF_Merged_Mapped_Only.bam -g mm -n EBF -f BAM 
+--outdir /bi/group/sysgen/Hashem/VDJ_Analysis/MACS2_OUTPUT/EBF -p 0.00001
+
+#Pax5 (without INPUT)
+# Command line: callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/Sorted_Bams_Final/SRR499699_Pax5_Bio_ChIP_seq_pro_B_8417_1_sorted.bam 
+-g mm -n PAX5 -f BAM --outdir /bi/group/sysgen/Hashem/VDJ_Analysis/MACS2_OUTPUT/Pax5 -p 0.00001 --nomodel --extsize 300
+
+#Pax5_SE (without INPUT)
+# Command line: callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/Sorted_Bams_Final/SRR499699_Pax5_Bio_ChIP_seq_pro_B_8417_1_sorted.bam 
+-g mm -n PAX5_SE -f BAM --outdir /bi/group/sysgen/Hashem/VDJ_Analysis/MACS2_OUTPUT/Pax5_SE -p 0.00001
+
+
+#RAD21 (without INPUT)
+# Command line: callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/Sorted_Bams_Final/SRR099837_GSM672403_Pro_B_cell_Rad21_1_val_1.fq_bowt
+ie_sorted.bam -g mm -n RAD21 -f BAM --outdir /bi/group/sysgen/Hashem/VDJ_Analysis/MACS2_OUTPUT/RAD21 -p 0.00001
+
+
+
+
+
+
+#RAG_ChIP data (without INPUT)
+# Command line: callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/RAG_ChIP_Data/cf_outputs/SRR2048318_preB_R1_BD_I3_1.fastq.gz_bowtie2.bam  -g mm -n RAG_BD_I3 -f BAM --outdir /bi/group/sysgen/Hashem/VDJ_Analysis/MACS2_OUTPUT/RAG_BD_I3 -p 0.00001
+
+
+
+
+#RAG_ChIP BD_I4 data (without INPUT)
+# Command line: callpeak -t /bi/group/sysgen/Hashem/VDJ_Analysis/RAG_ChIP_Data/cf_outputs/SRR2048321_preB_R2_BD_I4_1.fastq.gz_bowtie2.bam  -g mm -n RAG_BD_I4 -f BAM --outdir /bi/group/sysgen/Hashem/VDJ_Analysis/MACS2_OUTPUT/RAG_BD_I4 -p 0.00001
+
+
+
+
+
+
+
+
+

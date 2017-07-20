@@ -1,0 +1,2 @@
+/bi/group/sysgen/Hashem/VDJ_Analysis/VDJ_IgK/Bam_Files_2017/GSM546523_Sample7.1.RAG1KO-E2A_chr.bam
+/bi/group/sysgen/Hashem/VDJ_Analysis/VDJ_IgK/Bam_Files_2017/SRR408700_GSM876622_EBF1_ChIP_seq_8246_6_1_Merged_with_2_1_Mapped_Only_Sorted_chr.bam

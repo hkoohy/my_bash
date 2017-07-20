@@ -1,0 +1,9 @@
+/bi/group/sysgen/Hashem/VDJ_Analysis/VDJ_IgK/Bam_Files_2017/SRR499699_Pax5_Bio_ChIP_seq_pro_B_8417_1_sorted_Sorted_chr.bam
+/bi/group/sysgen/Hashem/VDJ_Analysis/VDJ_IgK/Bam_Files_2017/SRR099835_GSM672401_Pro_B_cell_Rag2_CTCF_1_val_1_chr.bam
+/bi/group/sysgen/Hashem/VDJ_Analysis/VDJ_IgK/Bam_Files_2017/GSM1038263_SRR620145_Med1_Pro_Bcell_ChipSeq_1_chr.bam
+/bi/group/sysgen/Hashem/VDJ_Analysis/VDJ_IgK/Bam_Files_2017/GSM987808_SRR543411_pro_B__p300_ChIP_seq_1_trimmed_chr.bam
+/bi/group/sysgen/Hashem/VDJ_Analysis/VDJ_IgK/Bam_Files_2017/GSM539538_SRR064918_PU_1_Pro-B_cells_replicate_1_chr.bam
+/bi/group/sysgen/Hashem/VDJ_Analysis/VDJ_IgK/Bam_Files_2017/SRR1917137_Ikaros_ChIP-Seq_proB_cells_1_trimmed_chr.bam
+/bi/group/sysgen/Hashem/VDJ_Analysis/VDJ_IgK/Bam_Files_2017/GSM987804_SRR543407_pro_B__H3K4me2_ChIP_seq_1_trimmed_chr.bam
+/bi/group/sysgen/Hashem/VDJ_Analysis/VDJ_IgK/Bam_Files_2017/SRR1917139_Brg1_ChIP-Seq_proB_cells_1_chr.bam
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ls -lht /bi/sequencing/Sample_915_DJB_AEC_Mouse_DNA_VDJseq_Lane_2/Lane_1080_DJB_AEC_Mouse_DNA_VDJseq_Lane_2/Aligned/lane6_CTTGTA_A2_D_L006_R.*.unique_V.bam
+ls -lth /bi/sequencing/Sample_1072_DJB_AEC_Mouse_DNA_VDJseq_Lane_4/Lane_1243_DJB_AEC_Mouse_DNA_VDJseq_Lane_4/Aligned/lane2_A1D_CGATGT_L002_R.*.unique_V.bam
+ls -lth /bi/sequencing/Sample_1072_DJB_AEC_Mouse_DNA_VDJseq_Lane_4/Lane_1243_DJB_AEC_Mouse_DNA_VDJseq_Lane_4/Aligned/lane2_A2D_TGACCA_L002_R.*.unique_V.bam

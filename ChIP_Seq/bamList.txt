@@ -1,0 +1,12 @@
+/bi/group/sysgen/Hashem/Claudia_H3K27AC/Bam_Files/lane5467_CGATGT_K27ac_Dyoung2_L007_R1_val_1_GRCm38_bowtie2_sorted_chr.bam
+/bi/group/sysgen/Hashem/Claudia_H3K27AC/Bam_Files/lane5467_TAGCTT_K27ac_Dold1_L007_R1_val_1_GRCm38_bowtie2_sorted_chr.bam
+#/bi/group/sysgen/Hashem/Data_for_FTP/ISP_FTP_2017/Bams/CTCF_FrD_Old_Rep1_chr_Sorted.bam
+#/bi/group/sysgen/Hashem/Data_for_FTP/ISP_FTP_2017/Bams/CTCF_FrD_Young_Rep1_chr_Sorted.bam
+#/bi/group/sysgen/Hashem/Data_for_FTP/ISP_FTP_2017/Bams/lane2_Aged_D1_TTAGGC_L002_R1_val_1_GRCm38_hisat2_chr_Sorted.bam
+#/bi/group/sysgen/Hashem/Data_for_FTP/ISP_FTP_2017/Bams/lane2_Young_D1_GCCAAT_L002_R1_val_1_GRCm38_hisat2_chr_Sorted.bam
+#/bi/group/sysgen/Hashem/Data_for_FTP/ISP_FTP_2017/Bams/lane4910_ACTTGA_D_old1_L006_R1_val_1_GRCm38_bowtie2_chr_Sorted.bam
+#/bi/group/sysgen/Hashem/Data_for_FTP/ISP_FTP_2017/Bams/lane4910_TAGCTT_D_young1_L006_R1_val_1_GRCm38_bowtie2_chr_Sorted.bam
+#/bi/group/sysgen/Hashem/Data_for_FTP/ISP_FTP_2017/Bams/lane4980_AGGCAGAA_YD5_L006_R1_val_1_GRCm38_bowtie2_MT_removed_chr_Sorted.bam
+#/bi/group/sysgen/Hashem/Data_for_FTP/ISP_FTP_2017/Bams/lane4980_CAGAGAGG_AD5_L006_R1_val_1_GRCm38_bowtie2_MT_removed_chr_Sorted.bam
+#/bi/group/sysgen/Hashem/Data_for_FTP/ISP_FTP_2017/Bams/lane5363_GCCAAT_K27me3_young2_L004_R1_val_1_GRCm38_bowtie2_chr_Sorted.bam
+#/bi/group/sysgen/Hashem/Data_for_FTP/ISP_FTP_2017/Bams/lane5363_TAGCTT_K27me3_old2_L004_R1_val_1_GRCm38_bowtie2_chr_Sorted.bam
