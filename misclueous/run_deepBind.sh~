@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./deepbind motifs_of_interests.ids < /Volumes/WIMM_ENZO/hashemk/Main_Data/ASS1_ATF4_Data/ASS1_enhancer_seq_splitted.fasta > ASS1_Enhancer_Region_Scores.txt
+
